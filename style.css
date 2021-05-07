@@ -465,7 +465,7 @@ button {
 }
 
 .btn-rd {
-  border-radius: 40px;
+  border-radius: 40px !important;
 }
 
 .btn-clean {
