@@ -13,6 +13,10 @@ button {
   outline: none !important;
 }
 
+.text-center {
+  margin-top: 30px;
+}
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -304,6 +308,10 @@ a:hover {
 
 .navbar-brand img[src$="svg"] {
   min-width: 100px;
+}
+
+.logo {
+  margin: auto;
 }
 
 .nav-center .navbar-brand img {
@@ -1031,6 +1039,13 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .social {
+    flex-direction: row;
+  }
+
+  .col-sm-3 {
+    width: 20%;
   }
 }
 
