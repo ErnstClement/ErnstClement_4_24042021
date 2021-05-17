@@ -18,6 +18,11 @@ a:hover {
   cursor: pointer;
 }
 
+.text-title {
+  width: 50%;
+  margin: auto;
+}
+
 #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
@@ -360,6 +365,11 @@ a:hover {
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
+
+  .text-title {
+    width: 60%;
+  }
+
   .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
     color: #484848;
@@ -1034,5 +1044,8 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+  .text-title {
+    width: 100%;
   }
 }
