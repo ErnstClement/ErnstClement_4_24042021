@@ -326,10 +326,6 @@ a:hover {
   min-width: 100px;
 }
 
-.logo {
-  margin: auto;
-}
-
 .nav-center .navbar-brand img {
   margin: 0;
 }
@@ -1063,6 +1059,11 @@ h4 {
 
   .col-sm-3 {
     width: 20%;
+    margin: auto;
+  }
+
+  .row {
+    flex-direction: column;
   }
 }
 
