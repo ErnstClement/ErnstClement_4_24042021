@@ -305,6 +305,7 @@ a:hover {
 .navbar {
   margin-bottom: 0;
   z-index: 1;
+  justify-content: flex-end;
 }
 
 .navbar-brand {
@@ -343,6 +344,10 @@ a:hover {
   font-size: 16px;
 }
 
+.navbar-nav{
+  justify-content: flex-end;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
 }
@@ -376,6 +381,17 @@ a:hover {
   position: relative;
   z-index: 2;
 }
+
+.page-2{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.col-sm-4{
+  margin: auto;
+}
+
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -554,7 +570,14 @@ button {
 .form-group {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 80%;
+  margin: auto;
+}
+
+.send{
+  display: flex;
+justify-content: center;
+margin-bottom: 10px;
 }
 
 a[data-lightbox] {
@@ -1071,6 +1094,7 @@ h4 {
     width: 20%;
     margin: auto;
   }
+
 
   .row {
     flex-direction: column;
