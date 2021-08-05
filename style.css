@@ -344,7 +344,7 @@ a:hover {
   font-size: 16px;
 }
 
-.navbar-nav{
+.navbar-nav {
   justify-content: flex-end;
 }
 
@@ -382,16 +382,15 @@ a:hover {
   z-index: 2;
 }
 
-.page-2{
+.page-2 {
   display: flex;
   margin: auto;
   justify-content: center;
 }
 
-.col-sm-4{
+.col-sm-4 {
   margin: auto;
 }
-
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -574,10 +573,10 @@ button {
   margin: auto;
 }
 
-.send{
+.send {
   display: flex;
-justify-content: center;
-margin-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 a[data-lightbox] {
@@ -878,11 +877,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.webp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1094,7 +1093,6 @@ h4 {
     width: 20%;
     margin: auto;
   }
-
 
   .row {
     flex-direction: column;
