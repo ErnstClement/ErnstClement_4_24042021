@@ -17,6 +17,11 @@ button {
   margin-top: 30px !important;
 }
 
+.texte-citation-core {
+  font-style: italic;
+  font-weight: bold;
+}
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -306,6 +311,11 @@ a:hover {
   margin-bottom: 0;
   z-index: 1;
   justify-content: flex-end;
+}
+
+:focus {
+  font-weight: bolder;
+  outline: 3px blue solid !important;
 }
 
 .navbar-brand {
