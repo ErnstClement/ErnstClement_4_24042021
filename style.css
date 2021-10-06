@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.title {
+  color: white !important;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -15,6 +21,18 @@ button {
 
 .text-center {
   margin-top: 30px !important;
+}
+
+.prefoot-h2 {
+  color: white;
+  text-align: center;
+}
+
+.citation-fourchette {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .texte-citation-core {
@@ -137,6 +155,7 @@ a:hover {
 .citation {
   font-size: 20px;
   font-weight: 600;
+  color: black !important;
 }
 
 .d-bloc .a-btn,
@@ -700,8 +719,6 @@ a[data-lightbox]:hover img {
   background: none;
 }
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -746,11 +763,6 @@ p {
   margin: auto auto auto auto !important;
 }
 
-.h1 {
-  font-size: 20px;
-  font-family: "Open Sans";
-}
-
 .cta-hero {
   margin-top: 22px;
   color: #ffffff !important;
@@ -765,12 +777,6 @@ p {
   margin: auto auto auto auto;
 }
 
-h2 {
-  font-size: 22px;
-  line-height: 1.4em;
-  text-transform: uppercase;
-}
-
 h3 {
   font-size: 15px;
   text-transform: uppercase;
@@ -782,10 +788,6 @@ h3 {
   max-width: 800px;
   margin: auto auto auto auto;
   box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-  color: #333333 !important;
 }
 
 h4 {
